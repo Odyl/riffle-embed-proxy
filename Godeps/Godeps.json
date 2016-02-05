@@ -1,0 +1,5 @@
+{
+	"ImportPath": "github.com/odyl/riffle-embed-proxy",
+	"GoVersion": "go1.5",
+	"Deps": []
+}

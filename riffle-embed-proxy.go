@@ -7,7 +7,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	//fmt.Fprintf(w, "Hi there", r.URL.Path[1:])
-	http.Redirect(w, r, "http://read.rifflebooks.com"+r.URL.Path, 301)
+	http.Redirect(w, r, "https://read.rifflebooks.com"+r.URL.Path, 301)
 }
 
 func main() {
